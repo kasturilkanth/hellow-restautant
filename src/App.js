@@ -67,7 +67,7 @@ const theme = useTheme();
     
     <div className="App">
       <div className='sidebar'>
-        <div className='rect-card-logo'><img className='rect-card-logo' src={logo}></img></div>
+        <div className='rect-card-logo'><img className='rect-card-logo' src={logo} alt="chitra"></img></div>
         <div className='rect-card-dashboard'>
           <div className='small-box'>
           <div className='one'></div>
@@ -153,7 +153,7 @@ const theme = useTheme();
  onClick={initiateUpload} id="fileSelect">
   Select a file to upload
 
-  <span><img src={file} style={{ width:"20px",height:"20px" }} /></span>
+  <span><img src={file} style={{ width:"20px",height:"20px" }} alt="chitra"/></span>
   </button>
  
 </div>
@@ -222,7 +222,7 @@ const theme = useTheme();
  onClick={initiateUpload} id="fileSelect">
   Enter GST number
 
-  <span><img src={file} style={{ width:"20px",height:"20px" }} /></span>
+  <span><img src={file} style={{ width:"20px",height:"20px" }} alt="chitra"/></span>
   </button>
 <h1 className='name'>FSSAI number</h1>
 
@@ -230,7 +230,7 @@ const theme = useTheme();
  onClick={initiateUpload} id="fileSelect">
   Enter FSSAI number
 
-  <span><img src={file} style={{ width:"20px",height:"20px" }} /></span>
+  <span><img src={file} style={{ width:"20px",height:"20px" }} alt="chitra" /></span>
   </button>
  
 </div>
